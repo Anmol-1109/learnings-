@@ -42,7 +42,7 @@ struct student student2={"me",7.1};
 struct student student3={"myself",8.0};
 struct student students[]={student1,student2,student3};
 for(int i = 0;i<sizeof(students)/sizeof(students[0]);i++){
-    printf("%s\n",students[i].name);
+    printf("%s\t",students[i].name);
      printf("%.2f\n",students[i].gpa);
 }
 
