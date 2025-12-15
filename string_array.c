@@ -11,5 +11,6 @@ char str[]="anmol sharma";
 for (int i=0;i<strlen(str);i++){
  printf("%c",str[i]);
 }
-printf("%d",strlen(str));
+printf("\n%s",str);
+//printf("%d",strlen(str));
            }
